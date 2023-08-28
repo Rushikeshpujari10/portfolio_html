@@ -1,0 +1,292 @@
+body
+{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.myname
+{
+	color: hotpink;
+	font-size: 30px;
+	font-family:Arial Black;
+}
+
+.mymenu
+{
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+}
+
+.mymenu:hover
+{
+	color: #e38546;
+
+}
+.navbar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+}
+.maindiv
+{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+.dv 
+{
+	width: 100%;
+	padding-top: 200px;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+
+.home
+{
+	height:640px;
+	margin-top: 0px;
+	background-image: url("https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGV2ZWxvcGVyfGVufDB8fDB8fHww&w=1000&q=80" );
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 75px;
+	padding-left: 30px;
+/*	background-color: black;*/
+
+}
+
+.homeinfo
+{
+	margin-top: 5%;
+	margin-left: 10%;
+	font-size: 30px;
+}
+.info 
+{
+	font-size: 30px;
+	color: #e88717;
+	font-weight: bolder;
+}
+.infoname
+{
+	font-size: 40px;
+	font-family: Arial black !important;
+	color: #24bcd4;
+	font-weight: bolder;
+}
+.infodev
+{
+	font-size: 25px;
+	color: #e88717;
+	font-weight: bolder;
+}
+
+.btn 
+{
+	margin:0px;
+}
+.btn button
+{
+	height: 40px;
+	width: 80px;
+	border: none;
+	background-color: hotpink;
+	border-radius: 10px;
+	color: white;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-top: 5px;
+/*	margin-left: 5px;*/
+
+}
+
+.btn button:hover
+{
+	background-color: white;
+	color: #e38546;
+	border: 2px solid #e38546;
+	transform: scale(1.1);
+	transition-duration: 1s;
+
+}
+.about
+{
+/*	background-color: gray;*/
+	height: 640px;
+	padding-top: 10px;
+	background-image: url('https://cdn.wallpapersafari.com/66/29/4xBD3Q.jpg');
+}
+.ab 
+{
+ font-size: 50px;
+ font-family: Times New Roman;
+ font-weight: bolder;
+}
+.abtdiv
+{
+	padding-bottom: 20px;
+}
+.imgdiv
+{
+	padding-left: 200px;
+	padding-bottom: 100px;
+	width: 50px;
+}
+
+.imgabout
+{
+/*	padding-left: 40px;*/
+	border-radius: 90px;
+
+}
+.imgabout:hover
+{
+	    border-radius: 150px;  /* it makes circle we use the half of width and height of image pixel*/
+		transition-duration: 4s;  
+		box-shadow: 40px 30px 40px black;
+}
+
+.textabout
+{
+	font-size: 30px;
+	padding-right: 60px;
+	text-align: justify;
+	text-indent: 30px;
+	padding-left: -60px;
+	font-weight: bolder;
+	padding-bottom: 120px;
+
+}
+
+.skill
+{
+	height: 640px;
+/*	margin-top: 10px;*/
+	padding-top: 15px;
+/*	padding-right: 60px;*/
+	background-image: url('https://img.freepik.com/free-photo/coffee-plant-near-technologies_23-2147772383.jpg?w=2000');
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+/*	background-color: gray;*/
+}
+
+
+
+
+/*/*practice*/
+/*.skilltable*/
+/*{*/
+/*	height: 300px;*/
+/*	width: 500px;*/
+/*	border-color: black;*/
+
+/*}*/
+/*.KK*/
+/*{*/
+/*	font-size: 30px;*/
+/*}*/
+/**/*/
+
+
+.sklist
+{
+/*	align-content: center;*/
+/*	font-size: 50px;*/
+/*	text-align: justify;*/
+/*	margin-left: 45%;*/
+/*	font-family: Algerian;*/
+/*	font-weight: bolder;*/
+/*	padding-left: 50px;*/
+}
+.skilllist
+{
+	/*padding-left:470px;
+	padding-top: 180px;*/
+	margin-left: 600px;
+	font-size: 30px;
+	font-family: Algerian;
+	font-weight: bolder;
+
+
+	
+}
+.sk
+{
+	font-size: 50px;
+    font-family: Times New Roman;
+    font-weight: bolder;
+/*    padding-left: 560PX;*/
+/*    padding-bottom: 30PX;*/
+/*padding-top: 60px;*/
+}
+.sk:hover
+{
+	font-family: ;
+}
+
+.project
+{
+	height: 640px;
+/*	background-color: gray;*/
+	padding-top: 30px;
+
+}
+.pr
+{
+	font-size: 50px;
+    font-family: Times New Roman;
+    font-weight: bolder;	
+}
+.row
+{
+/*	height: 100px;*/
+padding-top: 50px;
+}
+.card
+{
+	height: 350px;
+/*	padding-left: 10px;*/
+margin-left: 10px;
+margin-right: 10px;
+}
+.btn btn-primary
+{
+	padding-bottom: 10px;
+}
+.card-text
+{
+	text-indent: 50px;
+	text-align: justify;
+}
+
+.contact
+{
+	height: 640px;
+	width: 100%;
+	background-color: gray;
+	padding-top: 15px;
+/*	margin-top: 10px;*/
+/*	margin-left: 10px;*/
+/*	margin-right: 10px;*/
+}
+.ct 
+{
+	font-size: 50px;
+    font-family: Times New Roman;
+    font-weight: bolder;
+/*    padding-left: 560PX;*/
+    padding-bottom: 30PX;
+/*    padding-top: 60px;*/
+}
+.btnsubmit
+{
+	margin-left: 20px;
+}
